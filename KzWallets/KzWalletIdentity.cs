@@ -11,10 +11,10 @@ namespace KzWallets
 {
     /// <summary>
     /// A Bitcoin wallet for managing identities.
-    /// Manages addresses which serve as identifies: People, Protocols, etc.
+    /// Manages addresses which serve as identifies: People, Protocols, reputations, etc.
     /// Manages endorsements of those identities: Real world attributes (e-mail, passport, ss#, street address), 3rd party accounts (twitter, reddit, SM...)
     /// Supports sharing endorsements without revealing what else has received the endorsement.
-    /// Supports shared ownership of identities using threshold signature protocols.
+    /// Supports shared ownership of identities.
     /// Uses HD/bip32 keys.
     /// </summary>
     public class KzWalletIdentity : IKzWallet

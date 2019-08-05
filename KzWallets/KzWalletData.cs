@@ -11,7 +11,7 @@ namespace KzWallets
 {
     /// <summary>
     /// A Bitcoin wallet for managing data persisted to the blockchain/metanet.
-    /// Manages a low value, high number of UTXOs for generating transactions
+    /// Manages a sub-wallet of low value, high number of UTXOs for generating transactions
     /// that move MB/GB onto the blockchain.
     /// Manages synchronization and access to owned content.
     /// Supports multiple storage/retrieval protocols.

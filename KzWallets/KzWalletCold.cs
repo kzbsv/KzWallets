@@ -11,11 +11,13 @@ namespace KzWallets
 {
     /// <summary>
     /// A Bitcoin wallet for managing personal wealth money: Long term storage.
-    /// Support retirement/big puchase occasional spending.
+    /// Support big puchases / occasional spending.
     /// Supports long term saving with frequent deposits.
     /// A password and 2FA is needed to spend from an open wallet.
     /// Uses HD/bip32 keys for deposits.
     /// Prefers manually generated (e.g. die rolling, custom-procedural) entropy for primary private keys.
+    /// Can automate maximum balance per private key.
+    /// Can automate aggregating multiple smaller deposits.
     /// </summary>
     public class KzWalletCold : IKzWallet
     {
